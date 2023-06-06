@@ -1,0 +1,36 @@
+.termBox {
+  width: 300px;
+  height: 350px;
+  border: 2px solid #a3a3a3;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #d1d1d1;
+}
+
+.termImg1 {
+  float: left;
+  margin-right: 30px;
+  margin-left: 0px;
+}
+
+.termImg2 {
+  float: right;
+}
+
+.termExplanation1 {
+  font-size: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.termExplanation2 {
+  margin-left: 0px;
+  font-size: 20px;
+}
+
+.termHeader {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2a6897;
+  margin-bottom: 10px;
+}

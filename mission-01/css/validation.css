@@ -1,4 +1,4 @@
-.validationBtn {
+.validation-button {
   display: flex;
   width:327px;
   background-color: #CCCCCC;
@@ -9,6 +9,6 @@
   margin-bottom: 15px;
 }
 
-.validationImg {
+.validation-image {
   margin-right: 13px;
 }

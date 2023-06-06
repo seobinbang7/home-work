@@ -1,0 +1,14 @@
+.validationBtn {
+  display: flex;
+  width:327px;
+  background-color: #CCCCCC;
+  border: none;
+  border-radius: 30px;
+  padding: 12px;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.validationImg {
+  margin-right: 13px;
+}

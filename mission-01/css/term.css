@@ -1,4 +1,4 @@
-.termBox {
+.term-box {
   width: 300px;
   height: 350px;
   border: 2px solid #a3a3a3;
@@ -7,28 +7,28 @@
   background-color: #d1d1d1;
 }
 
-.termImg1 {
+.term-img1 {
   float: left;
   margin-right: 30px;
   margin-left: 0px;
 }
 
-.termImg2 {
+.term-img2 {
   float: right;
 }
 
-.termExplanation1 {
+.term-explanation1 {
   font-size: 20px;
   overflow: hidden;
   margin-bottom: 20px;
 }
 
-.termExplanation2 {
+.term-explanation2 {
   margin-left: 0px;
   font-size: 20px;
 }
 
-.termHeader {
+.term-header {
   font-size: 20px;
   font-weight: bold;
   color: #2a6897;

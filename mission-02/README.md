@@ -42,6 +42,8 @@ a htef="#"
   
 ## 2. CSS
   
+  설명이 필요할 것같은 코드만 작성했습니다.
+  
 .login-form
   - width로 크기를 지정하였고 그림자 효과를 주기위해 background-color를 #AAAAAA로 지정했습니다.
 

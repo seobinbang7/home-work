@@ -48,7 +48,7 @@ a htef="#"
   - width로 크기를 지정하였고 그림자 효과를 주기위해 background-color를 #AAAAAA로 지정했습니다.
 
 .login-container
-  - background 그라데이션 효과를 주기위해 background: linear-gradient를 줬습니다. 살짝 높이 띄어 login-form의 background-color가 보여 그림자 효과낼 수 있도록 뷰포트 기준으로 움직이지 않도록position:relative;를 주고 그리고 top: -5px, left: -10px를 줬습니다.
+  - background 그라데이션 효과를 주기위해 background: linear-gradient를 줬습니다. 살짝 높이 띄어 login-form의 background-color가 보여 그림자 효과낼 수 있도록 뷰포트 기준으로 움직이지 않도록 position:relative;를 주고 그리고 top: -5px, left: -10px를 줬습니다.
 
 .login-box
   - 좌측에 위치하도록 float:left를 줬습니다.

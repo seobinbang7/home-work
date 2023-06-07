@@ -3,7 +3,7 @@
 
 1. HTML
 
-<form class="login-form" method="POST">
+form class="login-form" method="POST"
   - 사용자가 입력한 로그인 정보를 전송하기위해 <form> 태그를 사용했습니다. 그리고 css 적용하기위해 login을 감싼 form이라는 걸 뜻하기위해 login-form라고 class명을 지어줬습니다. method="POST"는 클라이언트에서 서버로 전송하기위해 사용했습니다.
 
 fieldset class="login-container"
@@ -41,4 +41,12 @@ a htef="#"
                           
 2. CSS
 .login-form
-  - width로 크기를 지정하였고 
+  - width로 크기를 지정하였고 그림자 효과를 주기위해 background-color를 #AAAAAA로 지정했습니다.
+.login-container
+  - background 그라데이션 효과를 주기위해 background: linear-gradient를 줬습니다. 살짝 높이 띄어 login-form의 background-color가 보여 그림자 효과낼 수 있도록 뷰포트 기준으로 움직이지 않도록position:relative;를 주고 그리고 top: -5px, left: -10px를 줬습니다.
+.login-box
+  - 좌측에 위치하도록 float:left를 줬습니다.
+.line
+  - <div>태그인 .line에 width와 border를 줘서 선으로 표현했습니다.
+.a
+  - color은 black으로, 밑줄 선을 없애기위해 text-decoration:none을 줬습니다.

@@ -33,11 +33,11 @@ button class="login-button" type="submit"
 div class="line"
   - 선을 만들기위해 <div> 태그를 사용했습니다. 선임을 표현하기위해 line이라고 class명을 지었습니다.
   
-a class="join" href="#"
-  - 클릭시 href에 작성한 경로로 이동하기 때문에 <a> 태그를 사용했습니다. 회원가입을 위한 태그임을 표현하기위해 join이라고 class명을 지었습니다.
+a class="join" href="#" target="_brank"
+  - 클릭시 href에 작성한 경로로 이동하기 때문에 <a> 태그를 사용했습니다. 회원가입을 위한 태그임을 표현하기위해 join이라고 class명을 지었습니다. target="brank"를 줘서 새로운 창이 열리도록 했습니다.
   
-a htef="#"
-  - 클릭시 href에 작성한 경로로 이동하기 때문에 <a> 태그를 사용했습니다.
+a htef="#" targe="_brank"
+  - 클릭시 href에 작성한 경로로 이동하기 때문에 <a> 태그를 사용했습니다. target="brank"를 줘서 새로운 창이 열리도록 했습니다.
    
   
 ## 2. CSS

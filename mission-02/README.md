@@ -3,7 +3,7 @@
 
 1. HTML
 
-form class="login-form" method="POST"
+<form class="login-form" method="POST">
   - 사용자가 입력한 로그인 정보를 전송하기위해 <form> 태그를 사용했습니다. 그리고 css 적용하기위해 login을 감싼 form이라는 걸 뜻하기위해 login-form라고 class명을 지어줬습니다. method="POST"는 클라이언트에서 서버로 전송하기위해 사용했습니다.
 
 fieldset class="login-container"

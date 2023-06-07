@@ -1,7 +1,7 @@
 ![이미지 2023  6  7  오후 7 32](https://github.com/seobinbang7/home-work/assets/45528125/f090abf1-974c-4925-8574-b8b3cab97803)
 
 
-1. HTML
+## 1. HTML
 
 form class="login-form" method="POST"
   - 사용자가 입력한 로그인 정보를 전송하기위해 <form> 태그를 사용했습니다. 그리고 css 적용하기위해 login을 감싼 form이라는 걸 뜻하기위해 login-form라고 class명을 지어줬습니다. method="POST"는 클라이언트에서 서버로 전송하기위해 사용했습니다.
@@ -38,8 +38,9 @@ a class="join" href="#"
   
 a htef="#"
   - 클릭시 href에 작성한 경로로 이동하기 때문에 <a> 태그를 사용했습니다.
-                          
-2. CSS
+   
+  
+## 2. CSS
   
 .login-form
   - width로 크기를 지정하였고 그림자 효과를 주기위해 background-color를 #AAAAAA로 지정했습니다.

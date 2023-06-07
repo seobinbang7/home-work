@@ -8,24 +8,34 @@ form class="login-form" method="POST"
 
 fieldset class="login-container"
   - 여러 요소들을 묶기 위해 <fieldset> 태그를 사용했습니다. login에 관한 태그들을 감싸고 있기에 login-container이라고 class명을 지어줬습니다.
+  
 h2 class="login-text"
-  - 로그인 제목을 주기위해 사용했습니다. class명은 login-text로 login을 뜻하는 text라는 걸 표현했습니다
+  - 로그인 제목을 주기위해 사용했습니다. class명은 login-text로 login을 뜻하는 text라는 걸 표현했습니다.
+  
 div class="login-box"
   - input태그인 id와 pw를 묶기위해 <div> 태그를 사용했습니다. login을 묶은 태그라고 표현하기위해 login-box라고 class명을 지어줬습니다.
+  
 label class="id" for="id
  - 아이디임을 정의하기위해 <label>태그를 사용했고 클릭시 id의 <input>이 활성화되도록 for을 작성했습니다.
+  
 input id="id" class="id-input" type="email" placeholder="euid@euid.det"
- - 사용자에게 정보를 입력받기위해 <input> 태그를 사용했습니다. id를 <label> 태그의 for과 같은 값을 줘서 <label>을 클릭할 경우 id <input> 요소가 활성화되도록 했습니다. id의 input이라는 걸 표현하기위해 class명을 id-input이라 지었고 email 정보를 받기 때문에 type은 email를. placeholder을 사용해서 사용자에게 무슨 정보를 작성해야하는지 예시를 보였습니다.                                                           
+ - 사용자에게 정보를 입력받기위해 <input> 태그를 사용했습니다. id를 <label> 태그의 for과 같은 값을 줘서 <label>을 클릭할 경우 id <input> 요소가 활성화되도록 했습니다. id의 input이라는 걸 표현하기위해 class명을 id-input이라 지었고 email 정보를 받기 때문에 type은 email를. placeholder을 사용해서 사용자에게 무슨 정보를 작성해야하는지 예시를 보였습니다.        
+  
 label class="pw" for="pw"
   - 비밀번호임을 정의하기위해 <label>태그를 사용했고 클릭시 pw의 <input>이 활성화되도록 for을 작성했습니다.
+  
 input id="pw" class="pw-input" type="password" placeholder="8자리 이상" 
   - 사용자에게 정보를 입력받기위해 <input> 태그를 사용했습니다. pw를 <label> 태그의 for과 같은 값을 줘서 <label>을 클릭할 경우 pw <input> 요소가 활성화되도록 했습니다. pw의 input이라는 걸 표현하기위해 class명을 pw-input이라 지었고 password 정보를 받기 때문에 type은 password를. placeholder을 사용해서 사용자에게 무슨 정보를 작성해야하는지 예시를 보였습니다.
+  
 button class="login-button" type="submit"
   - 클릭시 전송이 되도록 submit를 작성했고 다른 페이지 이동이 아니기에 <button> 태그를 사용했습니다. login에 사용되는 button임을 표현하기위해 login-button이라고 class명을 지어줬습니다.
+  
 div class="line"
   - 선을 만들기위해 <div> 태그를 사용했습니다. 선임을 표현하기위해 line이라고 class명을 지었습니다.
+  
 a class="join" href="#"
   - 클릭시 href에 작성한 경로로 이동하기 때문에 <a> 태그를 사용했습니다. 회원가입을 위한 태그임을 표현하기위해 join이라고 class명을 지었습니다.
+  
 a htef="#"
   - 클릭시 href에 작성한 경로로 이동하기 때문에 <a> 태그를 사용했습니다.
                           

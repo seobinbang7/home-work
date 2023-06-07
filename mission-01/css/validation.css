@@ -1,4 +1,4 @@
-.validation-button {
+.validation-link {
   display: flex;
   width:327px;
   background-color: #CCCCCC;
@@ -7,6 +7,8 @@
   padding: 12px;
   font-size: 15px;
   margin-bottom: 15px;
+  color: black;
+  text-decoration:none;
 }
 
 .validation-image {

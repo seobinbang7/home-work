@@ -1,18 +1,18 @@
 .login-form {
   width:300px;
+  margin: 0px 0px 0px 10px;
   background-color: #AAAAAA;
   border-radius: 10px;
-  margin: 0px 0px 0px 10px;
 }
 
 .login-container {
-  width: 250px;
-  border: none;
-  border-radius: 10px;
-  background: linear-gradient(50deg, #ED592F, #E8832F);
   position: relative;
   top: -5px;
   left: -10px;
+  width: 250px;
+  background: linear-gradient(50deg, #ED592F, #E8832F);
+  border: none;
+  border-radius: 10px;
 }
 
 .login-text {
@@ -22,13 +22,13 @@
 .login-box {
   width: 230px;
   padding: 20px;
-  border-radius: 10px;
   background-color: white;
+  border-radius: 10px;
 }
 
 .input-box {
-  width:175px;
   float: left;
+  width:175px;
 }
 
 .id {
@@ -55,9 +55,9 @@
   width: 55px;
   height: 60px;
   color: white;
+  background-color: #ed552e;
   border: none;
   border-radius: 10px;
-  background-color: #ed552e;
 }
 
 .line {

@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.site-box {
+  width: 235px;
+  height: 236px;
+  border: 1px solid #a4a4a4;
+  border-radius: 10px;
+  background-color: #e4e4e4;
+  padding: 10px;
+}
+
+.site-text {
+  color: #e66731;
+}
+
+ul {
+  height: 30px;
+  border: 1px solid #a4a4a4;
+  border-radius: 5px;
+  background-color: white;
+  transition: width 0.5s;
+}
+
+li {
+  list-style: none;
+  font-size: 18px;
+  line-height: 30px;
+}

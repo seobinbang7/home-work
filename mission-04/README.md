@@ -45,7 +45,7 @@
 
 ## CSS
 
-``` section {
+section {
   width:380px;
   height:200px;
   padding: 20px;
@@ -54,7 +54,7 @@
   grid-template-areas:
     "h2 span"
     "intoduce intoduce";
-}```
+}
 
   - 태그들을 묶고 있는 section에 grid를 줬습니다.
 

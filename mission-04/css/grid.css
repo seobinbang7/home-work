@@ -1,0 +1,53 @@
+@import "./reset.css";
+
+.news-text {
+  color: #ef6949;
+}
+
+section {
+  width:380px;
+  height:200px;
+  padding: 20px;
+  display:grid;
+  grid-template-columns: reqeat(1, 1fr);
+  grid-template-areas:
+    "h2 span"
+    "intoduce intoduce";
+}
+
+h2 {
+  width:50px;
+  display: inline;
+  grid-area: h2;
+  margin-right: 320px;
+  margin-left: 20px;
+}
+
+span {
+  width:50px;
+  grid-area: span;
+}
+
+figure {
+  grid-area: figure;
+}
+
+.introduce {
+  width: 430px;
+  grid-area: intoduce;
+  display: flex;
+  margin-top: 20px;
+}
+
+.w3c-figcaption {
+  text-align: center;
+}
+
+.w3c-p1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.w3c-p2 {
+  margin-bottom: 10px;
+}

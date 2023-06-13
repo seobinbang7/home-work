@@ -20,7 +20,6 @@ ul {
   border: 1px solid #a4a4a4;
   border-radius: 5px;
   background-color: white;
-  transition: width 0.5s;
 }
 
 li {

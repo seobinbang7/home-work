@@ -1,3 +1,6 @@
+
+![4AF2DFF6-47CC-4273-BA90-6E3821911245](https://github.com/seobinbang7/home-work/assets/45528125/c3cdfa83-d879-4da2-b0a9-0e0f0af76c89)
+
 ## HTML
 
   ```<section></section>```
@@ -42,7 +45,7 @@
 
 ## CSS
 
-section {
+``` section {
   width:380px;
   height:200px;
   padding: 20px;
@@ -51,7 +54,7 @@ section {
   grid-template-areas:
     "h2 span"
     "intoduce intoduce";
-}
+}```
   - 태그들을 묶고 있는 section에 grid를 줬습니다.
 
  

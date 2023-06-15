@@ -20,7 +20,8 @@
   ```<li></li> ```
   - 리스트를 사용했습니다.
 
-  ##CSS
+  ## CSS
+  
   .site-box {
   box-sizing:border-box;
   width: 195px;

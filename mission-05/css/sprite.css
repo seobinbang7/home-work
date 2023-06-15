@@ -1,0 +1,72 @@
+@import "./reset.css";
+
+.site-box {
+  box-sizing:border-box;
+  width: 195px;
+  height: auto;
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid #A3A3A3;
+  border-radius: 10px;
+  background: linear-gradient(#D1D1D1, #E6E6E6);
+}
+
+h4 {
+  margin-bottom: 15px;
+}
+
+.popularity {
+  font-weight: bold;
+}
+
+.site {
+  color: #ED552E;
+  margin-right: 40px;
+  font-weight: bold;
+}
+
+ol {
+  counter-reset: index;
+}
+
+.w3c-rank::before,
+.standards-rank::before,
+.mdn-rank::before,
+.zengarden-rank::before {
+  width:30px;
+  hight:16px;
+  padding:3px 7px;
+  background-color: #A3A3A3;
+  border-radius: 5px;
+  margin-right:10px;
+}
+
+li {
+  list-style:none;
+}
+
+li::before {
+  counter-increment: index;
+  content: counter(index);
+}
+
+.sprite {
+  background: url("./../imges/rank.png") no-repeat;  
+}
+
+.increase {
+  background-position: right top;
+  height:24px;
+  margin-bottom:10px;
+  line-height: 15px;
+}
+
+.degradation {
+  background-position: right -43px;
+  line-height: 15px;
+  margin-bottom: 20px;
+}
+
+.nochange {
+  background-position: right center;
+}

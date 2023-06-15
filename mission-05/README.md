@@ -39,9 +39,10 @@
  - 굵기를 bolde로 줬습니다.
 
  ol {
+  margin: 0;
   counter-reset: index;
 }
- - css counter을 사용하기위해 초기값을 줬습니다.
+ - 스크린리더에 읽히면서도 숫자가 보이지 않게 margin:0;을 줬습니다. 그리고 css counter을 사용하기위해 초기값을 줬습니다.
 
  li::before {
   counter-increment: index;

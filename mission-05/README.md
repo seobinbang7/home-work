@@ -1,3 +1,6 @@
+![이미지 2023  6  15  오후 9 33](https://github.com/seobinbang7/home-work/assets/45528125/ede90a1e-e4bd-4ed8-9694-341a7cd19a83)
+
+
 ## HTML
 ``` <section class="site-box"></section> ```
  - 요소들을 묶기위해 section 태그를 사용했습니다.

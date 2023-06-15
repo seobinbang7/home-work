@@ -86,4 +86,4 @@
   background-position: right center;
 }
 
- - background-position을 사용해서 이미지 노출 위치를 조정했습니다.
+ - background-position을 사용해서 이미지 노출 위치를 조정했습니다. line-height를 사용해서 텍스트와 이미지가 세로로 중앙에 맞게 맞췄습니다.
